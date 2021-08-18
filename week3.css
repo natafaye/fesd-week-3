@@ -1,111 +1,15 @@
+/*#fafafabb*/
 
-body {
-    background-color: #fafafa;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.text-center {
-    text-align: center;
-}
-
-/**** Navbar ****/
-
-nav.navbar {
+.bg-slate {
     background-color: #4F5D61;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
 }
-
-nav.navbar ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav.navbar li {
-    margin: 0 15px;
-}
-
-nav.navbar a {
-    color: white;
-    text-decoration: none;
-}
-
-/**** Main ****/
-
-.section {
-    max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-}
-
-.split {
-    display: flex;
-}
-
-.split div {
-    flex-grow: 1;
-    padding: 30px 10px;
-}
-
-/**** Buttons ****/
-
-button {
-    border: 0;
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 15px;
-}
-
-button:hover {
-    background-color: #a1a1a1;
-}
-
-button.green {
-    background-color: #557213;
-    color: white;
-}
-
-button.green:hover {
-    background-color: #43580f;
-}
-
-/**** Jumbo ****/
 
 .jumbo {
     background-image: url(images/chair.jpg);
     background-size: cover;
-    height: 550px;
-    overflow: hidden;
+    height: 500px;
 }
-
- .jumbo h2 {
-    color: #4F5D61;
-    opacity: 0.9;
-    font-size: 4rem;
-    margin: 20px;
-    background-color: #fafafabb;
-    width: 270px;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/**** Footer ****/
 
 footer {
     background-color: #C2B8AD;
-    padding: 15px;
-}
-
-footer .section {
-    margin-bottom: 0;
 }
