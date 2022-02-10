@@ -2,22 +2,3 @@
 .bg-slate {
     background-color: #4F5D61;
 }
-
-.jumbo {
-    background-image: url(images/chair.jpg);
-    background-size: cover;
-    background-position: 70%;
-    height: 600px;
-    overflow: hidden;
-}
-
-.jumbo h2 {
-    color: #4F5D61;
-    opacity: 0.9;
-    background-color: #fafafabb;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #C2B8AD;
-}
