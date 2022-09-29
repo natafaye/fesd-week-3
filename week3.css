@@ -1,3 +1,10 @@
+/* #4F5D61 */
+
 .bg-slate {
-    background-color: #4F5D61;
+    background-color: #4F5D61
+}
+
+.bg-chair {
+    background-image: url(images/chair.jpg);
+    background-size: cover;
 }
