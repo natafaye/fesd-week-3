@@ -6,71 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootswatch/dist/flatly/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-slate navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Chairs</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shopping</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="#">Chairs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shopping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
     <div class="container">
         <div class="row">
-            <div class="col bg-chair">
-                <h1 class="display-1 p-5">Chairs are the best</h1>
-                <button class="btn btn-info ms-5">Learn More</button>
+            <div class="col bg-chair mb-5 pt-5 ps-5">
+                <h1 class="mb-4">Chairs are the best</h1>
+                <button class="btn btn-warning btn-lg">Learn More</button>
             </div>
         </div>
-        <div class="row text-center mt-4">
-            <div class="col-12 col-md-6 col-lg-4 bg-light p-3">
-                <p>Chairs can be sat on or stood on</p>
-                <button class="btn btn-success">Buy One</button>
+        <div class="row text-center mb-5 g-4">
+            <div class="col-md">
+                <div class="bg-light border p-4">
+                    <p>Chairs can be sat on or stood on</p>
+                    <button class="btn btn-primary">Buy One</button>
+                </div>
             </div>
-            <div class="d-none d-md-block col-md-6 col-lg-4 bg-light p-3">
-                <p>We love people with large screens</p>
-                <button class="btn btn-success">Buy One</button>
+            <div class="col-md col-lg-6 ">
+                <div class="bg-light border p-4">
+                    <p>We love people with large screens</p>
+                    <button class="btn btn-primary">Buy One</button>
+                </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-4 bg-light p-3">
-                <p>You want one, you know it</p>
-                <button class="btn btn-success">Buy One</button>
+            <div class="col-md">
+                <div class="bg-light border p-4">
+                    <p>You want one, you know it</p>
+                    <button class="btn btn-primary">Buy One</button>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="bg-slate text-white p-4 mt-5">
+    <footer class="bg-slate text-white p-4">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-3">
-                    <ul class="list-unstyled">
+                <div class="col-md">
+                    <ul>
                         <li>Link 1</li>
                         <li>Link 2</li>
                         <li>Link 3</li>
                     </ul>
                 </div>
-                <div class="col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                <div class="col-md-10 col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r
                     eprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
                 </div>
             </div>
         </div>
