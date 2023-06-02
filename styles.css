@@ -8,3 +8,7 @@
     background-position: center top;
     height: 500px;
 }
+
+.btn-slate {
+    --bs-btn-bg: #4F5D61;
+}
