@@ -5,10 +5,10 @@
 .bg-chair {
     background-image: url(images/chair.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     height: 500px;
 }
 
-.btn-slate {
-    --bs-btn-bg: #4F5D61;
-}
+/* .main-container {
+    min-height: 100vh
+} */
