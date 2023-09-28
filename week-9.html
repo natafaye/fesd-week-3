@@ -7,59 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-slate" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="#">Chairs</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shopping</a>
+                        <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container main-container">
+    <div class="container mb-5 main">
         <div class="row">
-            <div class="col bg-chair pt-4">
-                <h1 class="display-1">Chairs are the best</h1>
+            <div class="col bg-chair">
+                <h1 class="display-3 mb-4 mt-5">Chairs are the best</h1>
                 <button class="btn btn-success btn-lg">Learn More</button>
             </div>
         </div>
-        <div class="row text-center my-4">
-            <div class="col-12 col-sm"><!-- XS: 12 SM and up: evenly divide -->
+        <div class="row mt-5 gap-4 text-center">
+            <div class="col-12 col-md">
                 <p>Chairs can be sat on or stood on</p>
                 <button class="btn btn-primary">Buy One</button>
             </div>
-            <div class="col-4 col-xl-6 d-none d-lg-block"><!-- XS: display none LG and up: displays again with 4 XL and up: still displaying with 6 -->
+            <div class="col-12 col-md d-none d-md-block">
                 <p>We love people with large screens</p>
                 <button class="btn btn-primary">Buy One</button>
             </div>
-            <div class="col-12 col-sm"><!-- XS: 12 SM and up: evenly divide -->
+            <div class="col-12 col-md">
                 <p>You want one, you know it</p>
                 <button class="btn btn-primary">Buy One</button>
             </div>
         </div>
     </div>
-    <footer class="bg-slate text-white py-4 mt-5">
+    <footer class="bg-slate text-white p-4">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <ul class="list-unstyled">
+                <div class="col-12 col-sm-4 col-md-3">
+                    <ul>
                         <li>Link 1</li>
                         <li>Link 2</li>
                         <li>Link 3</li>

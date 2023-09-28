@@ -9,6 +9,6 @@
     height: 500px;
 }
 
-/* .main-container {
-    min-height: 100vh
-} */
+.main {
+    min-height: 100vh /* forces footer off end of page */
+}
