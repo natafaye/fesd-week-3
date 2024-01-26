@@ -1,14 +1,10 @@
-.bg-slate {
-    background-color: #4F5D61
-}
-
 .bg-chair {
     background-image: url(images/chair.jpg);
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 400px;
 }
 
-.main {
-    min-height: 100vh /* forces footer off end of page */
+.bg-slate {
+    background-color: #56717A;
 }
