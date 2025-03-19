@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="node_modules/bootswatch/dist/lux/bootstrap.css" /> -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist//css/bootstrap.css" />
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootswatch/dist/sketchy/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="my-styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg background-slate" data-bs-theme="dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-slate" data-bs-theme="dark">
+        <div class="container">
             <a class="navbar-brand" href="#">Chairs</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,42 +34,47 @@
             </div>
         </div>
     </nav>
-    <div class="container background-light-slate py-4">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>Chairs are the best</h1>
-                <button class="btn btn-success">Learn More</button>
+            <div class="col bg-chair">
+                <h1 class="mt-5">Chairs are the best</h1>
+                <button class="btn btn-success btn-lg mt-3">Learn More</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm">
+        <div class="row text-center">
+            <div class="col-12 col-sm pt-3">
                 <p>Chairs can be sat on or stood on</p>
-                <button class="btn btn-success">Buy One</button>
+                <button class="btn btn-primary mb-3">Buy One</button>
             </div>
-            <div class="col-sm col-lg-6 background-slate d-none d-lg-block">
+            <!-- xs we want to take up 12, sm we want to take up 4, md we want to take up 6 -->
+            <div class="col-12 col-sm col-md-6 bg-light pt-3">
                 <p>We love people with large screens</p>
-                <button class="btn btn-success">Buy One</button>
+                <button class="btn btn-primary mb-3">Buy One</button>
             </div>
-            <div class="col-sm">
+            <div class="col-12 col-sm pt-3">
                 <p>You want one, you know it</p>
-                <button class="btn btn-success">Buy One</button>
+                <button class="btn btn-primary mb-3">Buy One</button>
             </div>
         </div>
     </div>
-    <footer class="background-slate text-white p-3">
-        <div>
-            <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-            </ul>
-        </div>
-        <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r
-            eprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+    <footer class="bg-slate text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r
+                    eprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                </div>
+            </div>
         </div>
     </footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
