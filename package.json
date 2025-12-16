@@ -1,13 +1,21 @@
 {
   "name": "week-3",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natafaye/fesd-week-3.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/natafaye/fesd-week-3/issues"
+  },
+  "homepage": "https://github.com/natafaye/fesd-week-3#readme",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootswatch": "^5.3.8"

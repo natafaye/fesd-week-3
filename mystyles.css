@@ -1,13 +1,25 @@
-.background-grayish {
-    background-color: #4F5D61;
+/* #4F5D61 */
+
+.bg-banana {
+    background: yellow;
 }
 
-.background-chair {
-    background: url(images/chair.jpg);
+.bg-slate {
+    background: #4F5D61;
+}
+
+.bg-chair {
+    background-image: url(images/chair.jpg);
     background-size: cover;
-    min-height: 20rem;
+    height: 30rem;
 }
 
-.text-with-highlight {
-    background-color: rgba(255, 255, 255, 0.5);
+/* col-12 col-md-4 col-lg-6 bg-primary text-white p-3 text-center
+.middle-column {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    width: 8.34%;
 }
+*/
